@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="@string/get_data_here_Bundle"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="33dp"
+        android:text="@string/first_name"
+        android:textSize="19sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/GetFirstNameBundle"
+        app:layout_constraintEnd_toStartOf="@+id/GetFirstNameBundle"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_name1"
+        android:textSize="19sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/GetLastNameBundle"
+        app:layout_constraintStart_toStartOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/GetFirstNameBundle"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginTop="63dp"
+        android:text="@string/get_first_name"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/GetLastNameBundle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="@string/get_last_name"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@+id/GetFirstNameBundle"
+        app:layout_constraintTop_toBottomOf="@+id/GetFirstNameBundle" />
+</android.support.constraint.ConstraintLayout>

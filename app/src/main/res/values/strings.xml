@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Intents app</string>
+    <string name="firstname">FirstName</string>
+    <string name="last_name">Last Name</string>
+    <string name="send">Send Direct</string>
+    <string name="get_data_here_Direct">Get Data Here Direct</string>
+    <string name="get_data_here_Bundle">Get Data Here Bundle</string>
+    <string name="first_name">First Name:-</string>
+    <string name="last_name1">Last Name:-</string>
+    <string name="get_first_name">Get First name</string>
+    <string name="get_last_name">Get last Name</string>
+    <string name="SecondActivity">Second Activity</string>
+    <string name="send_bundle">Send Bundle</string>
+    <string name="Third_Activity">Third Activity</string>
+</resources>
